@@ -232,6 +232,9 @@ svg {
 }
 
 .hero-banner img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
 }
@@ -282,4 +285,67 @@ svg {
 .link-group .icon {
   margin: 0 auto;
   margin-top: 2px;
+}
+
+/* Park main content styling */
+main {
+  margin: 20px;
+}
+
+.intro h1 {
+  font-family: var(--bs-font-serif);
+  font-weight: normal;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.media-card {
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.media-card a {
+  text-decoration: none;
+}
+
+.media-card a:hover {
+  color: var(--bs-crete);
+}
+
+.media-card__title {
+  color: var(--bs-black);
+  text-decoration: none;
+}
+
+.media-card p {
+  color: var();
+}
+
+/* Footer styling */
+#park-footer {
+  background-image: url(../images/topo_pattern.png);
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+#park-footer h3 {
+  font-family: var(--bs-font-serif);
+  text-transform: uppercase;
+}
+
+#park-footer div {
+  line-height: 0.5em;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 700px) {
+  .info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
