@@ -294,8 +294,10 @@ main {
 
 .intro h1 {
   font-family: var(--bs-font-serif);
-  font-weight: normal;
+  font-weight: 500;
   text-align: center;
+  font-size: 1.7em;
+  padding: 10px 0px;
 }
 
 .info {
@@ -313,17 +315,13 @@ main {
   text-decoration: none;
 }
 
-.media-card a:hover {
-  color: var(--bs-crete);
-}
-
 .media-card__title {
   color: var(--bs-black);
   text-decoration: none;
 }
 
 .media-card p {
-  color: var();
+  color: var(--bs-grey-2);
 }
 
 /* Footer styling */
@@ -347,5 +345,13 @@ main {
   .info {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .media-card a:hover .media-card__title {
+    color: var(--bs-crete);
+  }
+
+  .intro h1 {
+    text-align: left;
   }
 }
