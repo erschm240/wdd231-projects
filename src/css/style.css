@@ -300,6 +300,10 @@ main {
   padding: 10px 0px;
 }
 
+.intro p {
+  padding:  10px 0px 20px 0px;
+}
+
 .info {
   display: flex;
   flex-direction: column;
