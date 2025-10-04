@@ -225,7 +225,7 @@ async function getJson(url) {
 
 export function getInfoLinks(data) {
   const withUpdatedImages = parkInfoLinks.map((item, index) => {
-    item.image = data[index + 2].url;
+    item.image = data[index + 1].url;
     return item;
   });
   return withUpdatedImages;
