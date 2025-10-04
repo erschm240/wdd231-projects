@@ -1,0 +1,156 @@
+/* Disclaimer styling */
+.disclaimer {
+  padding: 10px;
+}
+
+/* Skip links styling */
+.skip-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.skip-links a {
+  font-size: 11px;
+  font-size: 0.6875rem;
+  position: absolute;
+  right: 20px;
+  top: -200px;
+  z-index: -1;
+}
+
+.skip-links a:focus {
+  top: 2px;
+  z-index: 9999;
+}
+
+/* Global header styling */
+.global-header, .global-header__right {
+  background-color: var(--bs-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.global-header span {
+  color: var(--bs-link-color);
+}
+
+.global-header__right {
+  justify-self: right;
+}
+
+.search-icon, .icon {
+  max-width: 22px;
+  max-height: 22px;
+}
+
+.global-header span {
+  color: white;
+  font-weight: bold;
+}
+
+.global-header a:link, .global-header a:visited, #park-header a:link, #park-header a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#global-nav-toggle {
+  display: flex;
+  background-color: var(--bs-black);
+  color: #FFFFFF;
+  text-align: center;
+  align-items: center;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#global-nav-toggle .icon {
+  margin-right: 5px;
+}
+
+/* Park header styling */
+.hero-banner {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.hero-banner__content {
+  background-color: rgba(0, 0, 0, 0.6);  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.hero-banner__title {
+  font-weight: bold;
+  font-size: 1.7em;
+  margin-right: 20px;
+}
+
+.hero-banner__subtitle {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+}
+
+.links-bg {
+  background-color: var(--bs-black);
+}
+
+.site-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  max-width: 470px;
+  margin: 0 auto;
+}
+
+.link-group {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  font-size: 0.65em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.link-group .icon {
+  margin: 0 auto;
+  margin-top: 2px;
+}
+
+/* Title and logo styling */
+
+.site-title {
+  display: flex;
+  align-items: center;
+}
+.site-title > span {
+  font-size: 1rem;
+  margin-left: 0.3em;
+}
+
+.logo {
+  height: 0;
+  width: 0;
+  margin: 0.5em;
+  display: inline-block;
+  border-top: 34px solid var(--bs-light-green);
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+}

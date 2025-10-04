@@ -1,0 +1,40 @@
+/* Park main content styling */
+main {
+  margin: 20px;
+}
+
+.intro h1 {
+  font-family: var(--bs-font-serif);
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.7em;
+  padding: 10px 0px;
+}
+
+.intro p {
+  padding:  10px 0px 20px 0px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.media-card {
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.media-card a {
+  text-decoration: none;
+}
+
+.media-card__title {
+  color: var(--bs-black);
+  text-decoration: none;
+}
+
+.media-card p {
+  color: var(--bs-grey-2);
+}
